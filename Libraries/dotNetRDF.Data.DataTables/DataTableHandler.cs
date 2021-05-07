@@ -47,7 +47,7 @@ namespace VDS.RDF.Data.DataTables
         /// Data Table into which Triples will be converted to rows
         /// </summary>
         protected DataTable _table;
-        private String _subjCol, _predCol, _objCol;
+        private readonly String _subjCol, _predCol, _objCol;
 
         /// <summary>
         /// Creates a new Handler for a given Data Table with custom column names
