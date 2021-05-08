@@ -42,7 +42,7 @@ namespace VDS.RDF.Query.Spin.Core
      * 
      * @author Holger Knublauch
      */
-    public class Aggregations
+    public static class Aggregations
     {
 
         private static Dictionary<String, INode> name2Type = new Dictionary<String, INode>();
