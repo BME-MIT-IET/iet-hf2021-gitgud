@@ -270,7 +270,7 @@ namespace VDS.RDF.Query.Expressions.Functions.Sparql.String
         {
             get
             {
-                return _stringExpr.CanParallelise && _stringExpr.CanParallelise;
+                return _stringExpr.CanParallelise;
             }
         }
 
