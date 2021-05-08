@@ -70,15 +70,6 @@ namespace VDS.RDF.Query.Spin.Core
         {
             if (resource is IUriNode)
             {
-                /*String qname = null; // TODO chercher dans les NS prefixes ;
-                if (qname != null)
-                {
-                    return qname;
-                }
-                else
-                {
-                    return "<" + ((IUriNode)resource).Uri.ToString() + ">";
-                }*/
                 return null;
             }
             else
