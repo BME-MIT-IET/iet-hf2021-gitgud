@@ -55,7 +55,7 @@ namespace VDS.RDF.Query.FullText.Search.Lucene
         private Analyzer _analyzer;
         private IFullTextIndexSchema _schema;
         private bool _autoSync = true;
-        private UriComparer _uriComparer = new UriComparer();
+        private readonly UriComparer _uriComparer;
 
         /// <summary>
         /// Creates a new Base Lucene Search Provider.
@@ -76,6 +76,8 @@ namespace VDS.RDF.Query.FullText.Search.Lucene
             //Create necessary objects
             this._searcher = new LucSearch.IndexSearcher(this._indexDir, true);
             this._parser = new QueryParser(this._version, this._schema.IndexField, this._analyzer);
+
+            _uriComparer = new UriComparer();
         }
 
         /// <summary>
@@ -86,7 +88,10 @@ namespace VDS.RDF.Query.FullText.Search.Lucene
         /// <param name="analyzer">Analyzer.</param>
         /// <param name="schema">Index Schema.</param>
         public BaseLuceneSearchProvider(LucUtil.Version ver, Directory indexDir, Analyzer analyzer, IFullTextIndexSchema schema)
-            : this(ver, indexDir, analyzer, schema, true) { }
+            : this(ver, indexDir, analyzer, schema, true) 
+        {
+            _uriComparer = new UriComparer();
+        }
 
         /// <summary>
         /// Destructor which ensures that the Search Provider is properly disposed of
