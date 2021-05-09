@@ -70,6 +70,7 @@ namespace VDS.RDF.Query.Spin.Core
         {
             if (resource is IUriNode)
             {
+                // TODO
                 return null;
             }
             else
