@@ -25,6 +25,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -86,6 +87,7 @@ namespace VDS.RDF
             Graph g = new Graph();
             g.LoadFromFile("resources\\InferenceTest.ttl");
             g.BaseUri = new Uri("file:///" + Path.GetFullPath("resources\\InferenceTest.ttl"));
+            Debug.WriteLine(g.BaseUri);
 
             Assert.True(store.HasGraph(g.BaseUri), "Graph Collection should contain the Graph");
             Assert.Equal(g, store[g.BaseUri]);
