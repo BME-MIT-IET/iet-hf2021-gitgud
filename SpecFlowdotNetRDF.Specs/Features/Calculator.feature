@@ -25,3 +25,17 @@ Scenario: Comparing two graphs expecting positive result
 	And The second graph is the same
 	When The two graphs are compared, and the result is put into a report
 	Then The report should say that Graphs are equal
+
+@Abigel
+Scenario: Resolving URI with graph base
+	Given a graph with a base URI
+	And an URI with a path
+	When creating a URI node for the graph with the same path as the other URI
+	Then the URI node of the graph and the and the URI should be equal
+
+@Abigel
+Scenario: Merging two graphs
+	Given a graph with 1 triple
+	And an other empty graph
+	When merging the two graphs
+	Then the resulting graph should have 1 triple
