@@ -126,7 +126,7 @@ namespace VDS.RDF.Storage
         {
             get
             {
-                return (_manager.IOBehaviour | IOBehaviour.IsReadOnly) & (IOBehaviour.HasDefaultGraph | IOBehaviour.HasDefaultGraph | IOBehaviour.IsQuadStore | IOBehaviour.IsTripleStore | IOBehaviour.IsReadOnly);
+                return (_manager.IOBehaviour | IOBehaviour.IsReadOnly) & (IOBehaviour.HasDefaultGraph | IOBehaviour.IsQuadStore | IOBehaviour.IsTripleStore | IOBehaviour.IsReadOnly);
             }
         }
 
