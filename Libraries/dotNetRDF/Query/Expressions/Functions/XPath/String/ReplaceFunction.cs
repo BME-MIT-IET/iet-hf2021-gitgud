@@ -140,7 +140,7 @@ namespace VDS.RDF.Query.Expressions.Functions.XPath.String
                 if (n.NodeType == NodeType.Literal)
                 {
                     string ops = n.AsString();
-                    foreach (char c in ops.ToCharArray())
+                    foreach (char c in ops)
                     {
                         switch (c)
                         {
