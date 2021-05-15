@@ -33,8 +33,8 @@ namespace VDS.RDF.Configuration
     /// </summary>
     class CachedObjectKey : IEquatable<CachedObjectKey>
     {
-        private INode _n;
-        private IGraph _g;
+        private readonly INode _n;
+        private readonly IGraph _g;
 
         /// <summary>
         /// Creates a new Cached Object Key.
