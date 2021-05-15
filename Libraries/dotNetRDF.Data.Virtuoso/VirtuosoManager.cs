@@ -269,7 +269,7 @@ namespace VDS.RDF.Storage
         /// <param name="graphUri">URI of the Graph to Load.</param>
         public override void LoadGraph(IGraph g, String graphUri)
         {
-            if (graphUri == null || graphUri.Equals(String.Empty))
+            if(string.IsNullOrEmpty(graphUri))
             {
                 this.LoadGraph(g, (Uri) null);
             }
@@ -286,7 +286,7 @@ namespace VDS.RDF.Storage
         /// <param name="graphUri">URI of the Graph to Load.</param>
         public override void LoadGraph(IRdfHandler handler, String graphUri)
         {
-            if (graphUri == null || graphUri.Equals(String.Empty))
+            if(string.IsNullOrEmpty(graphUri))
             {
                 this.LoadGraph(handler, (Uri) null);
             }
