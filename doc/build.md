@@ -1,0 +1,5 @@
+# Build keretrendszer beüzemelése + CI beüzemelése
+
+A feladat során beüzemeltük a build keretrendszert és a CI-t. Ehhez a GitHub Actions felületét használtuk, hiszen az Actions fülre kattintva egyből felajánlotta a megfelelő workflowt a projektünkhöz. A .NET opciót választottuk, ami egy sablont adott a workflowhoz, ezután pedig ezt a sablont szerkesztettük a jobb oldalt felkínált lehetőségekből válogatva. A projekt windowson lett futtatva, hiszen a .NET Framework ezt kívánja meg, majd a microsoft/setup-msbuild és a NuGet lehetőségeket kihasználva elkészítettük a .yml fáljt. A commit után el is indult a build, és sikeresen le is futott, csak a Unit tesztek elvégzése során jelzett hibát. A feladatot a #20-as számú Issue-ban dokumentáltuk, ahol kiosztottuk a feladatokat, majd egy csapattársunk elvégezte a reviewt. A feladat során megismerkedtünk azzal, hogy hogyan tudunk egy .NET projekthez workflowt készíteni, ezzel kiegészítve a gyakorlaton szerzett tudásunkat.
+
+![(build.PNG)]
