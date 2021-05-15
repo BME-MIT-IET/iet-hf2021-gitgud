@@ -59,3 +59,4 @@ We are always pleased to receive pull requests that fix bugs or add features.
 When fixing a bug, please make sure that it has been reported on the [issues list](https://github.com/dotnetrdf/dotnetrdf/issues) first.
 If you plan to work on a new feature for dotNetRDF, it would be good to raise that on the issues list before you commit too much time to it.
 
+
