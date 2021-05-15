@@ -144,15 +144,8 @@ namespace VDS.RDF.Query.Spin.Model
 
         public ICommand getBody()
         {
-            IResource node = null; //ModulesUtil.getBody(this);
-            if (node is IResource)
-            {
-                return SPINFactory.asCommand(node);
-            }
-            else
-            {
-                return null;
-            }
+            IResource node = null;
+            return SPINFactory.asCommand(node);
         }
 
 
