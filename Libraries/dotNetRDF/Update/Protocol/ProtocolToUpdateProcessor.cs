@@ -268,7 +268,10 @@ namespace VDS.RDF.Update.Protocol
             }
 
             SparqlParameterizedString put = new SparqlParameterizedString(cmdSequence.ToString());
-            put.Namespaces = g.NamespaceMap;
+            if(g != null)
+            {
+                put.Namespaces = g.NamespaceMap;
+            }
             if (graphUri != null) put.SetUri("graph", graphUri);
             SparqlUpdateCommandSet putCmds = _parser.ParseFromString(put);
             _updateProcessor.ProcessCommandSet(putCmds);
