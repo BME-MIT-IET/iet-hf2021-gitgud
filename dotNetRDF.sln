@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparqlAnalyzer", "Testing\SparqlAnalyzer\SparqlAnalyzer.csproj", "{B19AD698-11F5-486E-B534-00262F751700}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowdotNetRDF.Specs", "SpecFlowdotNetRDF.Specs\SpecFlowdotNetRDF.Specs.csproj", "{C1CCA688-1E3F-4223-892E-701094718084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,18 @@ Global
 		{B19AD698-11F5-486E-B534-00262F751700}.Release|x64.Build.0 = Release|Any CPU
 		{B19AD698-11F5-486E-B534-00262F751700}.Release|x86.ActiveCfg = Release|Any CPU
 		{B19AD698-11F5-486E-B534-00262F751700}.Release|x86.Build.0 = Release|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Debug|x64.Build.0 = Debug|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Debug|x86.Build.0 = Debug|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Release|x64.ActiveCfg = Release|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Release|x64.Build.0 = Release|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1CCA688-1E3F-4223-892E-701094718084}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

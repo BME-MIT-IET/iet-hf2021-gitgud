@@ -187,6 +187,11 @@ namespace VDS.RDF
         {
             _graphs.Clear();
         }
+
+        public void Add(Graph graph, bool v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     /// <summary>
