@@ -15,14 +15,14 @@ A GitHub Actions támogatja a Docker image automatikus létrehozását. Ehhez eg
 
 A Dockerfile instrukciókat tartalmaz, felépítése:
 
-![](\images\docker_inst.PNG)
+![](/doc/images/docker_inst.PNG)
 
 Action lefutása után a Docker Hub-on megjelenik a build:
 
-![](\images\docker_buidl.PNG)
+![](/doc/images/docker_buidl.PNG)
 
 Végül pedig az image:
 
-![](\images\docker_image.PNG)
+![](/doc/images/docker_image.PNG)
 
 
