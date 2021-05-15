@@ -75,16 +75,16 @@ Egy ilyen támadás adatvesztéshez, adat szivárgáshoz vezet, más támadások
 
     Lásd fentebb
 - SCS0015 - Hardcoded Password
-The password configuration to this API appears to be hardcoded.
-Risk
-If hard-coded passwords are used, it is almost certain that malicious users will gain access through the account in question.
+
+    Hardkódolt jelszavak használata esetén szinte biztos, hogy a rosszindulatú felhasználók hozzáférhetnek a kérdéses fiókhoz.
+
 
 Az adott hibára duplán kattintva elnavigál minket a kódban a megfelelő sorhoz. A hiba kódra kattintva pedig böngészőben megnyitja a hozzá tartozó leírást. Itt megtalálhatjuk miért kockázatos a hiba, illetve megoldást is kínál nekünk.
 
 ![3](/doc/images/security_2.png)
 
 
-## Fortify on Demand Extension for Visual Studio
+## 3.) Fortify on Demand Extension for Visual Studio
 
 A Foritfy on Demand egy szolgáltatást nyújt nekünk amivel biztonsági hibákat gyorsan és egyszerűen felderíthetünk.
 
