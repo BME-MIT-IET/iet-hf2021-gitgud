@@ -39,12 +39,12 @@ namespace VDS.RDF.Query.Spin.Constraints
     internal abstract class SimplePropertyPath
     {
 
-        private INode predicate;
+        private readonly INode predicate;
 
-        private INode root;
+        private readonly INode root;
 
 
-        public SimplePropertyPath(INode root, INode predicate)
+        protected SimplePropertyPath(INode root, INode predicate)
         {
             this.predicate = predicate;
             this.root = root;
