@@ -12,4 +12,3 @@ Anna: A gráfok tesztelésével foglalkoztam, ezen belül is a gráfok létrehoz
 Abigél: Az egyik tesztesetben két gráf összeolvasztásával foglalkoztam, létrehozva a gráfokat adott számú triple-ökkel, és a merge után ellenőriztem, hogy az eredményként kapott gráfban a megfelelő számú triple-ök legyenek. A másik tesztben az URI-k feloldását vizsgáltam, megadtam egy gráfnak egy base URI-t, majd a gráfhoz hozzáadtam egy új node-ot egy adott útvonallal. Ellenőriztem, hogy az így kapott node URI-ja megegyezik-e azzal az URI-val, amit a gráf base URI és a megadott útvonal konkatenálásával kapunk meg.
 
 Dávid: Én a gráfok összehasonlítására készített függvényeket teszteltem, az ahol a pozitív és a negatív eredmény is tesztelésre került. 
-![](/doc/images/specflow_3.PNG)
